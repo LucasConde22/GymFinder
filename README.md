@@ -1,5 +1,5 @@
 # GymNexus
-Página web que permite a los usuarios buscar el gimnasio que más se adapta a sus gustos
+Sistema de busqueda de gimnasios en base a las necesidades y preferencias del usuario.
 
 <h2>Introducción</h2>
 <p>

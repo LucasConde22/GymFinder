@@ -1,23 +1,22 @@
-# GymFinder
+# GymNexus
 Página web que permite a los usuarios buscar el gimnasio que más se adapta a sus gustos
 
-<h2>Funciones y objetivos</h2>
-<p>•	Buscar Gym: Este es el objetivo principal. El usuario será capaz de buscar gimnasios en una determinada zona y filtrar la búsqueda según distintas condiciones mencionadas en los próximos puntos.
-  
-•	Selección de precios: Los gimnasios tendrán cargado el precio de su suscripción, tanto mensual como diaria. Los usuarios podrán filtrar su búsqueda en base al precio que están dispuestos a pagar.
-  
-•	Selección por tipo de actividades: Un gimnasio puede disponer de distintos tipos de actividades para hacer, como crossfit, musculación, entre otros. Por eso, cada gimnasio especificará sus actividades y los usuarios serán capaces de filtrar su búsqueda en base a la actividad que desean realizar.
-•	Selección por zona: Como ya mencionamos, se podrán buscar gimnasios en cada lugar del mapa. Esto lo haremos con la ayuda de la API de Google Maps que nos facilitará la tarea de ubicar cada gimnasio en el mapa y nos dará las herramientas para poder llevar a cabo una búsqueda satisfactoria especificando la dirección, el barrio, el código postal, la ubicación en tiempo real, etc.
-  
-•	Maquinas disponibles:  Un punto muy importante a la hora de visitar un nuevo gimnasio es saber que maquinas tiene. A nadie le gusta estar entrenando pecho y no disponer de un banco plano para poder hacer press, así que vamos a agregar la opción de poder ve que maquinas hay disponibles. También incluiremos esta opción, pero con las mancuernas disponibles (pesos disponibles y cantidad de pares por cada peso).
-  
-•	Ver si hay cafetería/kiosco dentro: Para ir a entrenar se necesita energía, por lo tanto, que el gimnasio posea una cafetería o un kiosco donde comprar café, agua o algo para comer es un punto muy importante. Creemos que el poder ver si el gimnasio posee este “extra” va a ser muy útil para los usuarios.
-  
-•	Vestuarios: Todo el mundo necesita vestuarios, ya sea para cambiarse; guardas objetos personales; o bañarse. Por consecuente, los gimnasios deberán especificar si poseen vestuarios.
-  
-•	Ventilación, iluminación y espejos: La ventilación es esencial en un gimnasio, por lo que se deberá especificar si el gimnasio la posee y de qué tipo (aire acondicionado, ventiladores, etc.). La iluminación y los espejos también son importantes, así que se deberá especificar esto también.
-  
-•	Cantidad de gente por actividades y horarios: Ir al gimnasio en un horario que está lleno de gente es insoportable, así que pondremos un filtro que permita ver y buscar según la cantidad de gente que hay en cada momento del día.
-  
-•	Horarios: Esto permitirá ver los horarios en los que se encuentra abierto cada gimnasio.
+<h2>Introducción</h2>
+<p>
+  Actualmente, el cuidado de la salud y el bienestar físico son una prioridad para muchos. Por ello, la práctica regular de ejercicio se ha convertido en una de las actividades más recomendadas para mantener una buena salud y prevenir enfermedades relacionadas con el sedentarismo, como la obesidad.
+  Sin embargo, para realizar este tipo de actividad se necesita contar con un gimnasio, el lugar adecuado donde se pueden realizar ejercicios de manera correcta, con el equipo necesario y supervisión profesional. Espacios diseñados especialmente para realizar actividades físicas al disponer de todo lo ya mencionado.
+  No obstante, encontrar el gimnasio ideal suele resultar una tarea ardua para muchas personas, ya que se deben tener en cuenta muchos factores para su elección, como las necesidades personales, presupuesto y preferencias.
+  Una encuesta llevada a cabo en el año 2014 por la International Health, Racquet & Sportsclub Association (IHRSA) realizada a 500 personas demostró que aproximadamente al 62% de las personas les resulta difícil encontrar un gimnasio que se adapte a sus necesidades, y el 38% dijo que alguna vez tuvieron que cambiar de gimnasio por problemas como falta de máquinas, actividades, malos horarios y precios demasiado elevados. Esta situación es muy común en este mercado, ya que hay presente una gran variedad de opciones y muchos consumidores experimentan una gran frustración y desmotivación al no encontrar el gimnasio que se adapte de manera correcta a todos sus objetivos y necesidades. Este es un problema que nosotros mismos también experimentamos frecuentemente y queremos resolver.
+  Otros de los problemas que muchos gimnasios suelen presentar, además de los ya mencionados, y generan muchas quejas en los usuarios es la falta de higiene y limpieza, la incomodidad en las instalaciones, la falta de variedad en las actividades y la falta de un ambiente adecuado para entrenar. Consideramos que la calidad del servicio que ofrecen los gimnasios es un factor determinante, por lo tanto, es fundamental que estos se esfuercen en ofrecer un servicio de calidad, y que luchen por mejorar sus diferentes aspectos para así lograr el ambiente deseado por sus clientes.
+</p>
+<h2>Propuesta</h2>
+<p>
+  Los avances tecnológicos y la globalización popularizaron la actividad física, principalmente en plataformas como YouTube o TikTok. Teniendo en cuenta el actual uso de la tecnología y la motivación que poseen los nuevos “seguidores” de esta tendencia, pensamos en solucionar el problema que muchos de ellos poseen: empezar. Antes esto y basándonos en las problemáticas anteriormente presentadas, nuestro objetivo es brindar una solución práctica y efectiva que permita la búsqueda del gimnasio ideal para cada usuario, cumpliendo sus necesidades y preferencias, para poder así lograr aumentar la satisfacción del cliente y su compromiso con la actividad física, como así también, mejorar la calidad de los servicios ofrecidos, fomentando la competencia entre gimnasios y generando una mayor innovación en la oferta de sus servicios.
+  GymNexus permitirá a los usuarios buscar gimnasios según distintos factores, como ubicación, horarios, tipo de entrenamiento, actividades disponibles, precios, y muchos otros factores relevantes.
+También ofrecerá la opción de que los usuarios dejen comentarios y reseñas sobre los gimnasios que hayan visitado, lo que permitirá a otros usuarios tomar una decisión informada al momento de elegir un gimnasio, además de que generará un ranking que también ayudará a estos a tomar una decisión más acertada. A su vez, los gimnasios verán estas reseñas y el ranking, y las utilizarán para mejorar sus servicios y atraer a más clientes.
+  Otro aspecto que será de gran utilidad para los gimnasios será la funcionalidad de ver estadísticas sobre su negocio, donde visualizarán cuantos clientes poseen, quien miró su “perfil” y cuanto están generado en cada momento. Esto, junto con la posibilidad de leer las reseñas sobre su gimnasio, permitirá a los dueños conocer mejor a sus clientes, cuales son los horarios más concurridos y qué actividades son más populares en su establecimiento. También, les servirá para adaptar sus estrategias de marketing para atraer a más clientes potenciales y aumentar sus ingresos.
+</p>
+<h2>Conclusión</h2>
+<p>
+  En resumen, GymNexus innovará en la forma en la que se busca gimnasio, para mejorar la salud y el bienestar de la vida de sus usuarios buscando dar ese “primer paso” que los llevará a lograrlo, también buscará promover la “cultura” de la actividad física y mejorar la calidad de este tipo de establecimientos, como así también su economía.
 </p>

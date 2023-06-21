@@ -1,5 +1,4 @@
 # GymNexus
-Sistema de busqueda de gimnasios en base a las necesidades y preferencias del usuario.
 
 <h2>Introducción</h2>
 <p>
